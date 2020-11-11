@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'userlist' => 'User List',
+    'tasklist' => 'Task List',
+    'delete' => 'Delete',
+    'view' => 'View',
+    'back' => 'Back',
+    'selectall' => 'Select All',
+    'unselectall' => 'Unselect All',
+    'currentusers' => 'Current Users',
+    'adduser' => 'Add User',
+    'newuser' => 'New User',
+    'user' => 'User',
+    'currenttasks' => 'Current Tasks',
+    'addtask' => 'Add Task',
+    'newtask' => 'New Task',
+    'task' => 'Task', 
+    'notasktochoice' => 'This user is currently doing all the task',
+    'nousertochoice' => 'All user are on this task',
+    'notaskinuser' => 'This user is currently on no task',
+    'nouserintask' => 'No users are currently performing this task',
+    'nousernow' => 'No user now',
+    'notasknow' => 'No task now',
+];

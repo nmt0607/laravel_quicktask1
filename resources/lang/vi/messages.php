@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'userlist' => 'Danh sách nhân viên',
+    'tasklist' => 'Danh sách nhiệm vụ',
+    'delete' => 'Xóa',
+    'view' => 'Xem',
+    'back' => 'Trở lại',
+    'selectall' => 'Chọn tất cả',
+    'unselectall' => 'Bỏ chọn tất cả',
+    'currentusers' => 'Nhân viên hiện tại',
+    'adduser' => 'Thêm',
+    'newuser' => 'Nhân viên mới',
+    'user' => 'Nhân viên',
+    'currenttasks' => 'Nhiệm vụ hiện tại',
+    'addtask' => 'Thêm',
+    'newtask' => 'Nhiệm vụ mới',
+    'task' => 'Nhiệm vụ', 
+    'notasktochoice' => 'Nhân viên này hiện đang làm tất cả nhiệm vụ',
+    'nousertochoice' => 'Tất cả nhân viên đang làm nhiệm vụ này',
+    'notaskinuser' => 'Nhân viên này hiện không có nhiệm vụ nào',
+    'nouserintask' => 'Nhiệm vụ này hiện chưa có người làm',
+    'nousernow' => 'Hiện tại không có nhân viên nào',
+    'notasknow' => 'Hiện tại không có nhiệm vụ nào',
+];
