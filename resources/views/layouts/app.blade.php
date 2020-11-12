@@ -27,21 +27,24 @@
         <body id="app-layout">
             <nav class="navbar navbar-default">
                 <div class="container">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="{{ url('userList') }}">
-                            {{__('messages.userlist')}}
-                        </a>
-                        <a class="navbar-brand" href="{{ url('taskList') }}">
-                            {{__('messages.tasklist')}}
-                        </a>
-                        <a class="navbar-brand" href="{{ url('welcome/vi') }}">
-                            VI
-                        </a>
-                        <a class="navbar-brand" href="{{ url('welcome/en') }}">
-                            EN
-                        </a>
+                    <div class="navbar-header" style="display: flex; justify-content: space-between;" >
+                        <div>
+                            <a class="navbar-brand" href="{{ url('userList') }}">
+                                {{__('messages.userlist')}}
+                            </a>
+                            <a class="navbar-brand" href="{{ url('taskList') }}">
+                                {{__('messages.tasklist')}}
+                            </a>
+                        </div>
+                        <div>
+                            <a class="navbar-brand" href="{{ url('welcome/vi') }}">
+                                VI
+                            </a>
+                            <a class="navbar-brand" href="{{ url('welcome/en') }}">
+                                EN
+                            </a>
+                        </div> 
                     </div>
-
                 </div>
             </nav>
 
